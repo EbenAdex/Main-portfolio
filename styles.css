@@ -116,7 +116,12 @@ main .text a:hover{
 }
 
 main img{
+    border: 2px solid #feca6b;
     width: 50%;
+}
+
+main .text img:hover{
+background-color: #feca6b;
 }
 
 .about_section{
@@ -161,7 +166,7 @@ main img{
 
 .about_section img{
     width: 25%;
-    /* border: 1px solid white; */
+    border: 2px solid #feca6b; 
 }
 
 .my_skills_section{
@@ -218,35 +223,49 @@ main img{
     gap: 3em;
 }
 
-.discord_clone{
+.Messanger_clone1{
     border: 3px solid white;
     text-align: center;
     border-radius: 5px;
 }
 
-.discord_clone img{
+.Messanger_clone img{
     width: 100%;    
 }
 
-.discord_clone_text{
+.Adexcorps_website img{
+    width: 100%;
+}
+
+.Messanger_clone{
     background-color: white;
     margin-top: -1.4em;
     color: black;
 }
 
-.discord_clone:hover{
-    border: 3px solid #feca6b;
+.Adexcorps_website{
+    background-color: white;
+    margin-top: -1.4em;
+    color: black;
 }
 
-.discord_clone_text:hover{
+
+
+.Adexcorps_website:hover{
     background-color: #feca6b;
 }
 
-.discord_clone_text p{
-    font-size: 1.1rem;
+.Messanger_clone:hover{
+    background-color: #feca6b;
 }
 
-.discord_clone .discord_clone_text span a{
+.Adexcorps_text {
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Messanger_clone1 .Adexcorps_text span a{
     margin-left: .9em;
     display: inline-block;
     color: black;
